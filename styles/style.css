@@ -1,0 +1,83 @@
+@font-face {
+    font-family: "Roboto-Bolt";
+    src: url(../fonts/Roboto-Bold.ttf);
+    width: 700px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.main-bc {
+    background-color: #C4C4C4;
+    padding: 50px;
+}
+
+.fix-sixe-conteiner {
+    width: 1100px;
+    margin-bottom: 50px;
+}
+
+.section-bc {
+    background-color: #E6E6E6;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.cube {
+    background-color: #FC8F8F;
+    width: 200px;
+    height: 200px;
+    float: left;
+    
+}
+
+.number {
+    font-family: "Roboto-Bolt";
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 63px 0 62px;
+}
+
+.right {
+    float: right;
+}
+
+.little-cube {
+    width: 100px;
+    height: 100px;
+    background-color: #FC8F8F;
+}
+
+.little-number {
+    font-family: "Roboto-Bolt";
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 31px 0;
+}
+
+.margin-right ~ .little-cube {
+    margin-right: 15px;
+}
+
+.last {
+    margin-bottom: 0;
+}
+
+.left {
+    float: left;
+}
+
+.margin-left + .left {
+    margin-left: 15px;
+}
+
+.margin-right + .right {
+    margin-right: 15px;
+}
